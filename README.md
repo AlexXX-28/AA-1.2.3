@@ -13,28 +13,28 @@
   
   ## LLISTAT DE PROPIETATS CSS
 
-  1. three float: left;
-  2. display: flex;
-  3. flex-flow: row wrap;
-  4. background-color: #830303;
-  5. margin-top: 2%;
-  6. padding: 15px 20px;
-  7. text-decoration: none;
-  8. justify-content: space-evenly;
-  9. background-color: red;
-  10. justify-content: space-evenly;
-  11. list-style: none;
-  12. display: none;
-  13. display: block;
-  14. width: 45vw;
-  15. z-index: 1;
-  16. background-image: url("../media/fondo.jpg");
-  17. text-align: center;
-  18. background-attachement: fixed;
-  19. background-repeat: no-repeat
-  20. justify-content: center;
-  21. border: 1px white solid;
-  22. border-collapse: collapse;
-  23. position: absolute;
-  24. color: white;
-  25. font-style: italic;
+1. three float: left;
+2. display: flex;
+3. flex-flow: row wrap;
+4. background-color: #830303;
+5. margin-top: 2%;
+6. padding: 15px 20px;
+7. text-decoration: none;
+8. justify-content: space-evenly;
+9. background-color: red;
+10. justify-content: space-evenly;
+11. list-style: none;
+12. display: none;
+13. display: block;
+14. width: 45vw;
+15. z-index: 1;
+16. background-image: url("../media/fondo.jpg");
+17. text-align: center;
+18. background-attachement: fixed;
+19. background-repeat: no-repeat
+20. justify-content: center;
+21. border: 1px white solid;
+22. border-collapse: collapse;
+23. position: absolute;
+24. color: white;
+25. font-style: italic;
