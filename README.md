@@ -13,7 +13,9 @@
   
   ## LLISTAT DE PROPIETATS CSS
 
-  1. float: left;
+  1. one
+  2. two
+  3. three float: left;
   2. display: flex;
   3. flex-flow: row wrap;
   4. background-color: #830303;
