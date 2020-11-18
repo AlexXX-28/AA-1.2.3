@@ -13,11 +13,11 @@
   
   ## LLISTAT DE PROPIETATS CSS
 
-  1.float: left;
-  2.display: flex;
-  3.flex-flow: row wrap;
-  4.background-color: #830303;
-  5.margin-top: 2%;
+  1. float: left;
+  2. display: flex;
+  3. flex-flow: row wrap;
+  4. background-color: #830303;
+  5. margin-top: 2%;
   6. padding: 15px 20px;
   7. text-decoration: none;
   8. justify-content: space-evenly;
