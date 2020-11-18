@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "font";
+    src: url("../fonts/ethnocentric\ rg.ttf"),
+    url("../fonts/ethnocentric\ rg.woff"),
+    url("..fonts/ethnocentric\ rg\ it.ttf"),
+    url("..fonts/ethnocentric\ rg\ it.woff");
+}
+h1 {
+    background: linear-gradient(to right,gray, white, gray, black, gray, white, gray);
+    width: 100%;
+    text-align: center;
+    border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    border: 0px solid #000000;
+}
+.imgTopEspacio {
+    margin-top: -95px;
+    left: 33%;
+    position: relative;
+}
+body {
+   background-image: url("../media/fondo.jpg");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   color: white;
+}
+.nav {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    a {
+        background-color:rgb(131, 3, 3);
+        color:#fff;
+        text-decoration:none;
+        padding: 10px 12px;
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav li a:hover {
+    background-color:#cc7c7c;
+}
+
+.submenu {
+    margin-top: 9px;
+    display: none;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    position: absolute;
+}
+.nav li:hover a + .submenu, .submenu li:hover{
+    background-color: rgb(44, 34, 31);
+    display: block;
+    z-index: 1;
+}
+
+.nav li {
+    margin-top: 5px;
+    margin-bottom: 15%;
+}
+.nav li:last-of-type {
+    margin-bottom: 4%;
+}
+
+table, th, td {
+    text-align: center;
+    border: 3px rgb(243, 154, 255) solid;
+    border-collapse: collapse;
+}
+
+h1 {
+    font-family: font;
+    font-style: italic;
+}
+
+img {
+    width:  30vw;
+}
+
+.personatgess {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    img {
+        border: 1px white solid;
+    }
+}
+.flex {
+    width: 35vw;
+}
+
+.media  {
+    width: 100%;
+    div {
+        width: 33%;
+        float: left;
+    }
+    img {
+        border: 1px white solid;
+    }
+}
+
+.director {
+    img {
+        border: 1px white solid;
+    }
+}
+
+.recomanacio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.recomanacio2 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.video {
+    color: black;
+}
+
+.masMargin {
+    margin-top: 2%;
+    margin-bottom: 45%;
+}
+
+.masMargin:last-of-type {
+    margin-bottom: 0px;
+}

@@ -1,0 +1,162 @@
+@font-face {
+  font-family: "font";
+  src: url("../fonts/ethnocentric rg.ttf"), url("../fonts/ethnocentric rg.woff"), url("..fonts/ethnocentric rg it.ttf"), url("..fonts/ethnocentric rg it.woff");
+}
+
+h1 {
+  background: -webkit-gradient(linear, left top, right top, from(gray), color-stop(white), color-stop(gray), color-stop(black), color-stop(gray), color-stop(white), to(gray));
+  background: linear-gradient(to right, gray, white, gray, black, gray, white, gray);
+  width: 100%;
+  text-align: center;
+  border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  border: 0px solid #000000;
+}
+
+.imgTopEspacio {
+  margin-top: -95px;
+  left: 33%;
+  position: relative;
+}
+
+body {
+  background-image: url("../media/fondo.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.nav {
+  width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.nav a {
+  background-color: #830303;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav li a:hover {
+  background-color: #cc7c7c;
+}
+
+.submenu {
+  margin-top: 9px;
+  display: none;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 12px;
+  position: absolute;
+}
+
+.nav li:hover a + .submenu, .submenu li:hover {
+  background-color: #2c221f;
+  display: block;
+  z-index: 1;
+}
+
+.nav li {
+  margin-top: 5px;
+  margin-bottom: 15%;
+}
+
+.nav li:last-of-type {
+  margin-bottom: 4%;
+}
+
+table, th, td {
+  text-align: center;
+  border: 3px #f39aff solid;
+  border-collapse: collapse;
+}
+
+h1 {
+  font-family: font;
+  font-style: italic;
+}
+
+img {
+  width: 30vw;
+}
+
+.personatgess {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.personatgess img {
+  border: 1px white solid;
+}
+
+.flex {
+  width: 35vw;
+}
+
+.media {
+  width: 100%;
+}
+
+.media div {
+  width: 33%;
+  float: left;
+}
+
+.media img {
+  border: 1px white solid;
+}
+
+.director img {
+  border: 1px white solid;
+}
+
+.recomanacio {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.recomanacio2 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.video {
+  color: black;
+}
+
+.masMargin {
+  margin-top: 2%;
+  margin-bottom: 45%;
+}
+
+.masMargin:last-of-type {
+  margin-bottom: 0px;
+}
+/*# sourceMappingURL=style.css.map */
