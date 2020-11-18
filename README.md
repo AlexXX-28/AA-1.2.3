@@ -10,8 +10,8 @@
   - En aquesta part vaig adaptar la meva pàgina amb la template responsiva.
 - [Enllaç a la v3 (Pàgina amb Bootstrap)](https://alexxx-28.github.io/AA-1.2.3/v3%20bootstrap/index.html)
   - En aquesta part vaig utilitzar Froala per a crear una plantilla amb Bootstrap.
-  
-  ## LLISTAT DE PROPIETATS CSS
+
+## LLISTAT DE PROPIETATS CSS
 
 1. three float: left;
 2. display: flex;
